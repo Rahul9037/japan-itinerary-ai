@@ -1,5 +1,6 @@
 "use client";
 
+import { assetPath } from "@/lib/asset";
 import type { Place } from "@/lib/options";
 import { useState } from "react";
 
@@ -7,7 +8,7 @@ export function PlaceCard({ place }: { place: Place }) {
   const [play, setPlay] = useState(false);
   return (
     <article className="overflow-hidden rounded-2xl bg-white shadow-sm">
-      <img src={place.image} alt={place.imageAlt} className="h-48 w-full object-cover" />
+      <img src={assetPath(place.image)} alt={place.imageAlt} className="h-48 w-full object-cover" />
       <div className="p-5">
         <h3 className="font-serif text-2xl">{place.name}</h3>
         <p className="mt-2 text-sm leading-6 text-ink-soft">{place.blurb}</p>
