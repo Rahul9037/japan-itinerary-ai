@@ -1,0 +1,233 @@
+Shinkansen Price (2026): What Every Major Route Actually Costs — and the Two Changes That Broke Every Older Guide | Honto Japan
+
+# Shinkansen Price (2026): What Every Major Route Actually Costs — and the Two Changes That Broke Every Older Guide
+
+ 2026 9/01 
+
+Guide· September 2, 2026· 25 min read· Sourced & cross-checked
+
+There is no such thing as the shinkansen price. Every figure you have seen quoted — 14,720 yen to Osaka, 23,810 yen to Hakata — is a sum of two separately calculated tickets: a base fare that pays for the distance, and a limited express fee that pays for the train. That one fact explains most of what confuses visitors — why the gate swallows two tickets, and why a discount may not touch the half of the ticket you assumed it did.
+
+Two changes in 2026 make most English pages on this topic wrong. On March 14, 2026, JR East raised its base fares for the first time since the company was founded in 1987 — but explicitly did not touch express fees, so only half of every Tohoku, Joetsu and Hokuriku price moved. On the same day the round-trip discount was abolished across all six JR companies, so the familiar "buy a return ticket and save 10 percent over 600 km" now describes a product last sold on March 13, 2026.
+
+This guide covers the price structure and what ten major routes cost — not how to buy or reserve. For that, see our guides to buying shinkansen tickets and reserving a seat.
+
+Honto check: Every fare and rule below was read from Japanese primary sources on August 27, 2026: JR Central's official ticket rule book (rules 06, 08, 30, 31 and 41), the FY2026 seasonal calendars, the Smart EX product pages and EX Hayatoku 21 price PDF, JR East's 2026 fare revision site and pamphlet, and japanrailpass.net. The route table was built from two independent official fare tools and cross-validated — JR Central's EX fare navigator and JR East's official post-revision fare search return identical figures for Tokyo to Shin-Osaka. Deliberately not stated: any yen figure for JR East's Ekinet Tokudane products (eki-net blocks automated access, so we could not read current prices officially and will not print unverified numbers); a day-by-day off-peak and busy-season calendar (the official calendars are color-coded per day and our reading of individual mid-band days is not reliable enough to publish); and any claim that JR East was the only company to raise fares in 2026 (we found no revision from JR Central, West or Kyushu, but we did not sweep every press archive, so this is "none found," not "none exists").
+
+TOC
+
+## Shinkansen prices at a glance: ten routes compared
+
+All figures are adult, one way, regular season, and each total is base fare plus express fee. Tokaido and Sanyo routes are priced on Nozomi, JR East routes on the fastest train serving them, all pulled for a confirmed regular-season weekday in August 2026.
+
+| Route | Base fare | Reserved total | Non-reserved total |
+| --- | --- | --- | --- |
+| Tokyo – Shin-Osaka | ¥8,910 | ¥14,720 | ¥13,870 |
+| Tokyo – Kyoto | ¥8,360 | ¥14,170 | ¥13,320 |
+| Tokyo – Nagoya | ¥6,380 | ¥11,300 | ¥10,560 |
+| Tokyo – Hiroshima | ¥11,880 | ¥19,760 | ¥18,380 |
+| Tokyo – Hakata | ¥14,080 | ¥23,810 | ¥22,220 |
+| Tokyo – Sendai (Hayabusa) | ¥6,270 | ¥11,630 | none — Yamabiko ¥10,780 |
+| Tokyo – Kanazawa (Kagayaki) | ¥7,700 | ¥14,600 | none — Hakutaka ¥14,070 |
+| Tokyo – Niigata (Toki) | ¥5,940 | ¥10,980 | ¥10,450 |
+| Shin-Osaka – Hiroshima | ¥5,720 | ¥10,950 | ¥9,890 |
+| Shin-Osaka – Hakata | ¥9,790 | ¥16,020 | ¥14,750 |
+
+Two rows deserve a second look. On Tokyo to Sendai and Tokyo to Kanazawa, the fastest trains — Hayabusa and Kagayaki — carry no non-reserved cars at all, year round. The cheap seat exists only on a slower Yamabiko or Hakutaka.
+
+### Which train type am I being quoted?
+
+More than people realize. On the Tokaido and Sanyo lines, Nozomi and Mizuho carry a surcharge over Hikari, Sakura and Kodama. Tokyo to Shin-Osaka: a Nozomi reserved fee of 5,810 yen against a Hikari fee of 5,490, so the same seat costs 14,720 on a Nozomi and 14,400 on a Hikari — about 320 yen for twenty minutes. A price that does not name the train is not a usable number. Our Tokyo to Osaka route guide covers that corridor in detail.
+
+### How much cheaper is a non-reserved seat, exactly?
+
+The official rule is a flat number, not a percentage: travel the whole section non-reserved and the express fee is the regular-season reserved fee minus 530 yen. So the non-reserved fee is the same all year. On Nozomi the gap looks bigger than 530, because that fee is calculated from the Hikari figure: 5,490 minus 530 gives 4,960 yen, 850 below the Nozomi reserved fee.
+
+A Japanese railway channel spends eight minutes on exactly the question the gate raises: why the base fare ticket and the express ticket are two separate pieces of card.
+
+## Why the price is always a sum — and what each half pays for
+
+The base fare (unchin) buys the right to travel a distance on JR track, calculated from operating kilometers exactly like a local train ticket. The limited express fee (tokkyu-ryokin) buys the shinkansen itself, and JR Central states plainly that shinkansen express fees are set individually for each pair of stations rather than by a distance formula. Add a Green car supplement and there are three. Ordinary reserved total equals base fare plus reserved express fee.
+
+### Why does the two-part structure matter to me?
+
+Because almost every rule resolves into "which half?" The abolished round-trip discount cut the base fare only. The 2026 JR East revision raised the base fare and left the express fee untouched. The seasonal bands move the express fee and leave the base fare alone.
+
+### What does a Green car really cost?
+
+Not what you would guess, because the supplement is not simply added on top. The official rule subtracts first: in a Green car the express fee becomes the reserved fee minus 530 yen, and then the Green supplement is added. That supplement is banded by distance: 1,300 yen to 100 km, 2,800 to 200, 4,190 to 400, 5,400 to 600, 6,600 to 800 and 7,790 beyond. Tokyo to Shin-Osaka: 5,810 minus 530 plus 5,400 gives a 10,680-yen charge on top of the 8,910 base fare, for 19,590 yen — exactly what the official tool returns.
+
+### Is there anything cheaper than a non-reserved seat?
+
+On the fully reserved trains, a standing ticket, officially sold when seats run out at the reserved fee minus 530 yen — Tokyo to Sendai on a Hayabusa prices one at 4,830 yen. You stand between the cars, so treat it as a fallback.
+
+## The two 2026 changes that broke every older price guide
+
+If you are reading a shinkansen price page last updated in 2025, at least two of its claims are now false.
+
+### What exactly changed on March 14, 2026?
+
+JR East raised its base fares — its first revision since the company was founded in 1987, excluding consumption tax pass-throughs. Trunk lines rose 4.4 percent, local lines 5.2 percent, the old inner-Tokyo zones far more, averaging 7.1 percent overall. What matters here is the line JR East wrote next: express fees and Green car fees were not revised. Tokyo to Kanazawa is the clean example: base fare 7,480 to 7,700 yen, express fee unchanged at 6,900, total 14,600 yen. Any Sendai, Niigata or Kanazawa figure sourced before March 2026 is wrong in a way that still looks plausible.
+
+### Is the round-trip discount really gone?
+
+Yes — and it is the most widely repeated piece of dead advice in English travel writing about Japan. JR East's official revision pamphlet states that round-trip and continuous tickets ceased to be sold after March 13, 2026, and that the discount for one-way sections of 601 kilometers or more was discontinued along with them. It was a group-wide change across all six JR passenger companies, announced jointly in October 2025. Two details already usually misreported: the threshold was 601 km, not 600, and the 10 percent came off the base fare only. Smart EX still sells a commercial product with "round trip" in its name — a retail offer, not the abolished tariff rule.
+
+### Is the local train still cheaper than the shinkansen?
+
+No — on the flagship route it is now the reverse. By JR East's own official post-revision fare search, Tokyo to Shin-Osaka costs 8,910 yen in base fare via the shinkansen but 9,020 yen entirely on local and rapid trains. The all-day, many-transfer option is 110 yen more expensive before a single yen of express fee. The cause is a technical change in the March 2026 revision: the Tokaido conventional line and the Tokaido Shinkansen between Tokyo and Atami are now treated as separate lines for fare calculation. The standard budget-traveler line — take the local train to save money — no longer holds here.
+
+### Did Tokaido shinkansen prices change too?
+
+No. Tokaido, Sanyo and Kyushu figures verified in August 2026 are unchanged, and the separate-line treatment above is part of why Tokyo Station sitting in JR East territory did not drag them up. We state the general case carefully: we found no 2026 revision from JR Central, West or Kyushu, but we did not sweep every press archive, so that is a negative finding rather than a guarantee.
+
+A Japanese railway channel walks through the March 14, 2026 changes — the JR East increase and the group-wide withdrawal of round-trip and continuous tickets.
+
+## Seasons: the same seat, up to 600 yen apart
+
+Since 2023, JR has priced reserved seats on a four-tier seasonal system — one tier more than the three-band system most English guides still describe. The official rule, in force from April 1, 2026 through March 31, 2027:
+
+| Season | Japanese | Adjustment to the reserved fee |
+| --- | --- | --- |
+| Peak-peak | saihanbouki | +¥400 |
+| Busy | hanbouki | +¥200 |
+| Regular | tsujoki | ±0 (the baseline in every table above) |
+| Off-peak | kansanki | −¥200 |
+
+The swing from the cheapest to the dearest day is therefore 600 yen per reserved seat, and it applies to the reserved-seat fee only: neither the base fare nor the non-reserved fee moves with the season.
+
+### Which seasonal calendar applies to my route?
+
+There are two, which is where single-calendar guides go wrong. Calendar A covers the Tokaido, Sanyo and Kyushu shinkansen and excludes the Hokuriku line; Calendar B covers JR East, Hokkaido and Hokuriku. Both are published as color-coded images on JR Central's official rules page.
+
+### When is the +400 yen peak-peak band in FY2026?
+
+Calendar A: May 1–6, August 7–8, August 15–16, September 18–23, December 29–30 and January 2–3, 2027. Calendar B: April 27 to May 6, August 10–19 and December 28 to January 6, 2027. Look at New Year: two peak days on the Tokaido against ten on JR East.
+
+### What about the busy and off-peak days?
+
+We are deliberately not reproducing those day by day. Busy season broadly covers weekends around the peak blocks; off-peak clusters on Tuesdays through Thursdays and many Saturdays in January, February, April, June and early December. But the official calendars are a per-day color map, not clean date ranges, and our reading of individual mid-band days is not confident enough to publish as fact. Check the official calendar image for your network and date.
+
+### Are there any seasonal traps beyond the four tiers?
+
+Two. A through journey from the Tokaido onto the Kyushu Shinkansen is surcharged twice — officially 800 yen at peak-peak, 400 in busy season, 400 off at off-peak. And the off-peak discount does not apply on the Nishi-Kyushu Shinkansen.
+
+### Does the non-reserved option survive the peaks?
+
+Not on Nozomi. During eight windows in the 2026 fiscal year, all Nozomi trains between Tokyo and Hakata run fully reserved — cars 1 and 2 are converted and there is no non-reserved option at all. The official FY2026 periods: April 24 to May 6, August 7–16, September 18–23, October 10–12, November 21–23, December 25 to January 5, January 9–11 and March 20–22, 2027. In those windows the 13,870-yen non-reserved fare to Osaka does not exist on a Nozomi. Hikari, Kodama, Mizuho, Sakura and Tsubame keep their non-reserved cars, so the cheap seat is still there — on a slower train.
+
+## Discounts that actually exist in 2026
+
+Strip out the discontinued and the domestically restricted, and the list is short.
+
+### How much does Smart EX save?
+
+Two hundred yen. On Tokyo to Shin-Osaka, regular season, Nozomi, JR Central's own fare navigator returns walk-up reserved 14,720, Smart EX 14,520 and the paid EX reservation service 14,230. On non-reserved seats Smart EX gives no discount at all — 13,870 either way — while EX reaches 13,620. So the real deltas are 200 yen on Smart EX and 490 on EX. Smart EX has no annual fee; EX costs 1,100 yen a year and needs a Japanese credit card, which rules it out for most visitors. Signing up is covered in our ticket-buying guide, not here.
+
+### Why can Smart EX cost you money?
+
+Because it forfeits your city-zone validity, and almost nobody explains this in English. JR Central states officially that Smart EX fuses the base fare and the express fee into one product, and that the city-zone system that applies to ordinary tickets does not apply to it. In plain terms: a paper ticket to Shin-Osaka is issued Tokyo city zone to Osaka city zone and covers local JR trains anywhere inside both — your ride from Shinjuku to Tokyo Station and your ride onward into central Osaka sit inside the 14,720 yen. Smart EX is station to station only, and JR states you pay the conventional-line fares at each end separately. Two short local rides usually exceed 200 yen, so the "discount" is frequently a net loss. Use it for booking convenience, not for price, and top up an IC card for those local legs.
+
+### What is EX Hayatoku 21 worth?
+
+This is the discount that actually moves the number: an advance-purchase reserved fare booked by 23:30 at least 21 days ahead, available through Smart EX and so usable by visitors. From the official price table in effect since March 2026:
+
+| Route | EX Hayatoku 21 | Child | vs walk-up reserved |
+| --- | --- | --- | --- |
+| Tokyo – Nagoya | ¥10,370 | ¥5,180 | −¥930 |
+| Tokyo – Kyoto | ¥12,430 | ¥6,210 | −¥1,740 |
+| Tokyo – Shin-Osaka | ¥12,980 | ¥6,480 | −¥1,740 |
+| Tokyo – Hiroshima | ¥15,390 | ¥7,690 | −¥4,370 |
+| Tokyo – Hakata | ¥17,920 | ¥8,960 | −¥5,890 |
+| Shin-Osaka – Kumamoto | ¥15,400 | ¥7,700 | — |
+| Shin-Osaka – Kagoshima-Chuo | ¥18,400 | ¥9,190 | — |
+
+The long routes earn its keep: Tokyo to Hakata drops 5,890 yen, nearly a quarter off. The official notes matter — the price is the same on weekdays and weekends, children are exactly half, and bookings cannot be changed after purchase. Shorter-notice siblings exist (EX Hayatoku 1, 3 and 7).
+
+### When can I not use the advance fares?
+
+On the days you most want them. The official FY2026 exclusion dates are April 24 to May 6, August 7–16, September 18–23 and December 25 to January 5. Those windows line up almost exactly with the peak-peak band and the all-reserved Nozomi periods — the same demand curve seen from three angles. Inside one, budget the full walk-up price and book early for availability rather than price.
+
+### What about JR East's discounts?
+
+JR East runs its own products on its own network. The Shinkansen e-ticket is the IC-based option, and from JR East's official tables the mechanism is a 200-yen reduction on the express fee — Tokyo to Kanazawa, the 6,900-yen fee becomes 6,700. We quote the mechanism rather than a total, because the PDF carrying those tables is dated February 2024 and its base fare column predates the March 2026 revision. The percentage-off Ekinet Tokudane family can beat everything above on JR East routes — but we could not read current prices from the official site, which blocks automated access, and we will not print unverified numbers. Check eki-net for your route and date.
+
+### Can visitors use the student discount?
+
+Almost certainly not. It gives 20 percent off the base fare — not the express fee — over 100 km, but only to students of JR-designated schools presenting a gakuwarisho certificate, which means enrollment in Japan.
+
+## Children, infants and the rules that surprise parents
+
+Japan's child fare rules are generous and specific, and contain one trap that costs families real money.
+
+### How old is a "child" for fare purposes?
+
+Officially, adult is 12 and over, child is 6 to under 12, infant is 1 to under 6 and baby is under 1 — with elementary school enrollment overriding the boundary either way. Those qualifiers refer to Japanese schools, so a visiting family goes by the plain age brackets.
+
+### Is everything half price for children?
+
+No, and this is the trap. Base fare, express fee and reserved-seat fee are half, rounded down to the nearest 10 yen. But Green car and Gran Class supplements are charged at the full adult price for children — the official rule is explicit. A family upgrading to Green because the kids are half price anyway will find only part of the ticket behaves that way.
+
+### When does a free under-6 stop being free?
+
+Under-6s travel free with two conditions. No more than two infants per accompanying paying passenger — from the third, a child fare is due. And an infant occupying their own reserved seat, Green seat or berth pays a child fare, as does one traveling alone. On a busy Nozomi where you want your three-year-old in their own seat, the child ticket is the default rather than the exception.
+
+## Where the Japan Rail Pass fits — and the Nozomi supplement
+
+The usual shorthand is "the pass covers everything except Nozomi, so take a Hikari." The exception is bigger than that, and the workaround is not free.
+
+### How much is the Nozomi supplement?
+
+Pass holders cannot ride Nozomi or Mizuho at all — not reserved, not non-reserved, not Green. What exists instead is a supplement ticket, one per person per ride, priced identically for Green, reserved and non-reserved. Tokyo to Shin-Osaka is 4,960 yen; Tokyo to Kyoto also 4,960, Tokyo to Nagoya 4,180, Tokyo to Hiroshima 6,500, Shin-Osaka to Hakata 4,960, Hakata to Kagoshima-Chuo 5,150. So one Nozomi ride to Osaka on a pass costs about a third of the full 14,720-yen fare. The Hikari is genuinely covered, for twenty extra minutes.
+
+### Is the pass worth it at the current prices?
+
+That is a route-by-route calculation, not a slogan — see JR Pass price for the break-even math and our main JR Pass guide for coverage. One timing note: the overseas purchase price rose on October 1, 2026 to 53,000 yen for a 7-day ordinary pass and 74,000 yen for 7-day Green, longer passes in step, child prices exactly half. Against the table above, the pass is no longer the automatic answer it was five years ago — which is the honest thing to say even though we would earn more by not saying it.
+
+## What English guides still get wrong
+
+A short audit, since almost everything on this keyword predates 2026. Quoting a single number without saying it is a sum. Omitting the +400 yen peak-peak band. Printing one seasonal calendar when there are two. Recommending the 601 km round-trip discount, abolished on March 14, 2026. Quoting JR East figures from before that revision. Claiming non-reserved is always cheapest. Claiming Smart EX saves money, which ignores the city-zone forfeit. And "kids are half price," which is false for Green and Gran Class.
+
+### So what should I actually do?
+
+Booking well ahead, EX Hayatoku 21 is the strongest lever a visitor can pull — 1,740 yen off to Osaka, 5,890 off to Hakata — if your date clears the blackouts. Booking late, take a Hikari when twenty minutes does not matter. For a multi-city trip, price a Japan Rail Pass against the table above, adding 4,960 yen per Nozomi leg you will not give up.
+
+## FAQ
+
+How much is a shinkansen ticket from Tokyo to Osaka?
+
+A reserved Nozomi seat is 14,720 yen one way as of August 2026 – a sum of two tickets, an 8,910-yen base fare plus a 5,810-yen express fee. Non-reserved is 13,870, a Hikari reserved seat 14,400, Green 19,590. These are regular-season prices; the reserved half moves up to 400 yen with the season.
+
+Why does the shinkansen give me two tickets?
+
+Because you are buying two things. The base fare ticket pays for the distance on JR track, exactly like a local train ticket. The express ticket pays for the shinkansen itself, and JR Central sets those fees station pair by station pair rather than by a distance formula. That is why the price is always a sum, and why a refund can affect one half and not the other.
+
+Is the round-trip discount still available in 2026?
+
+No. Round-trip and continuous tickets were sold for the last time on March 13, 2026 and withdrawn across all six JR passenger companies the next day, taking the 10 percent discount for journeys over 601 kilometers with them. Any guide still recommending a return ticket to save 10 percent over 600 kilometers is describing a product that no longer exists – and the discount only ever applied to the base fare.
+
+Does the price change depending on the date I travel?
+
+Yes, but only the reserved-seat half. Four seasonal bands: peak-peak adds 400 yen, busy season 200, regular season is the baseline, off-peak takes 200 off. Neither the base fare nor the non-reserved fee moves. There are two official calendars – Tokaido, Sanyo and Kyushu on one, JR East, Hokuriku and Hokkaido on the other – with sharply different peak windows, so check the one for your route.
+
+Is a non-reserved seat always the cheap option?
+
+No, and it catches people out twice. Hayabusa, Komachi, Hayate, Kagayaki and Tsubasa are fully reserved year round, so on Tokyo to Sendai or Kanazawa the cheap seat exists only on a slower Yamabiko or Hakutaka. And during the eight all-reserved windows in the 2026 fiscal year, Nozomi trains between Tokyo and Hakata drop their non-reserved cars too.
+
+Does Smart EX actually save money?
+
+Less than people assume, and sometimes it costs you. On Tokyo to Shin-Osaka it takes 200 yen off a reserved seat and nothing off a non-reserved seat. JR Central states that Smart EX does not carry the city-zone validity of an ordinary paper ticket, so it is station to station only. Add back the local fares a paper ticket would have covered and the 200 yen can become a net loss.
+
+How much do children pay?
+
+Base fare, express fee and reserved-seat fee are half the adult price, rounded down to the nearest 10 yen, for children aged 6 to 11. Green car and Gran Class supplements are full adult price for children – the part guides get wrong. Under-6s ride free on two conditions: no more than two per paying passenger, and they do not occupy their own seat.
+
+If I have a Japan Rail Pass, is the shinkansen free?
+
+Not entirely. The pass does not cover Nozomi or Mizuho at all – not reserved, not non-reserved, not Green. You buy a supplement ticket per person per ride, and Tokyo to Shin-Osaka is 4,960 yen, roughly a third of the full walk-up fare for one leg. Everything else is covered, fare and express fee together. Whether the pass pays for itself is a separate question – see our JR Pass price guide.
+
+Bottom line (2026) — A Tokyo to Shin-Osaka reserved seat is ¥14,720: a ¥8,910 base fare plus a ¥5,810 express fee, priced separately. The 601 km round-trip discount was abolished on March 14, 2026 and last sold March 13, 2026, so ignore any guide still recommending it. Smart EX saves only ¥200 and forfeits city-zone validity; EX Hayatoku 21 at ¥12,980 is the real saving, subject to blackout dates. JR Pass holders pay ¥4,960 extra per Nozomi leg.
+
+## Sources
+
+Fare structure, the 530-yen non-reserved rule, standing tickets, the Green car formula and distance bands, the four-tier seasonal system and its FY2026 calendars, the Tokaido-to-Kyushu double surcharge, and the child, infant and student rules: JR Central's official ticket rule book (rules 06, 08, 30, 31 and 41) and its FY2026 calendar images. All-reserved Nozomi periods: JR Central's official Nozomi page. Route prices: two independent official fare tools cross-validated against each other — JR Central's EX fare navigator, and JR East's official post-revision fare search. Smart EX and EX deltas, membership terms and the city-zone exclusion: official Smart EX and JR Central pages. EX Hayatoku 21 prices and blackout dates: the official Smart EX price PDF effective March 2026 and the exclusion-date page. The revision rates, the statement that express and Green fees were not revised, the abolition of round-trip tickets and the Tokyo–Atami separate-line treatment: JR East's official 2026 fare revision site and pamphlet. Nozomi supplement and pass prices: japanrailpass.net. All read as of August 27, 2026. Fares and rules change — confirm officially before you travel. The embedded videos are by their creators.

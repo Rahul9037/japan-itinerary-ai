@@ -1,6 +1,7 @@
 import { DayList } from "@/components/DayList";
-import { PlannerProvider } from "@/components/PlannerProvider";
 import { RoutePicker } from "@/components/RoutePicker";
+import { itineraries } from "@/lib/itineraries";
+import { routes } from "@/lib/options";
 import {
   babyKit,
   bookingOrder,
@@ -33,7 +34,12 @@ const nav = [
   ["paper", "Visa"],
 ];
 
-export default function Home() {
+export default async function Home({ searchParams }: PageProps<"/">) {
+  const params = await searchParams;
+  const requested = typeof params.route === "string" ? params.route : "";
+  const route = routes.find((r) => r.id === requested) ?? routes[0];
+  const days = itineraries[route.id] ?? itineraries["route-fuji"];
+
   return (
     <div className="min-h-full">
       <nav className="no-print sticky top-0 z-20 border-b border-[#1c1410]/10 bg-[#f4efe6]/90 backdrop-blur">
@@ -113,18 +119,16 @@ export default function Home() {
         </div>
       </header>
 
-      <PlannerProvider>
       <main className="mx-auto max-w-6xl space-y-20 px-4 py-16">
         <section id="routes">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Choose</p>
           <h2 className="mt-2 font-serif text-3xl md:text-4xl">Four needs, five itineraries</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">
-            Click a card. You get the night split, the snow/shopping trade-off, photos, official
-            films, and links. The long booking list below is written for route 1 (Fuji lake). If
-            you pick Hakone or Osaka, swap only the middle hotel and the transfer.
+            Click a card. The page reloads that route’s hotels, days, photos, and films. You can
+            also open Days in the top bar after picking.
           </p>
           <div className="mt-8">
-            <RoutePicker />
+            <RoutePicker route={route} />
           </div>
         </section>
 
@@ -270,16 +274,22 @@ export default function Home() {
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Itinerary</p>
           <h2 className="mt-2 font-serif text-3xl md:text-4xl">One neighbourhood a day</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">
-            Nap windows stay in. The list below follows whichever route card is selected.
+            Nap windows stay in. This list is for <strong>{route.name}</strong>.
           </p>
           <div className="mt-8">
-            <DayList />
+            <DayList key={route.id} days={days} routeName={route.name} />
           </div>
         </section>
 
         <section id="stay">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Beds</p>
           <h2 className="mt-2 font-serif text-3xl md:text-4xl">Three hotels, two rooms each</h2>
+          <p className="mt-3 text-sm leading-7 text-ink-soft">
+            This route: <strong>{route.stays.join(" → ")}</strong>
+            {route.id !== "route-fuji"
+              ? " Book the same class of hotel (Toyoko Inn / Super Hotel, 2 rooms, breakfast) in each city. The named hotels below are the Fuji-route example."
+              : null}
+          </p>
           <div className="mt-8 grid gap-6">
             {stays.map((h) => (
               <div key={h.city} className="grid gap-4 rounded-2xl bg-white p-6 md:grid-cols-2">
@@ -421,7 +431,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-      </PlannerProvider>
 
       <footer className="border-t border-[#1c1410]/10 px-4 py-10 text-center text-sm text-ink-soft">
         Core figures for 4 adults + infant. Photos: Unsplash. Films: official tourism YouTube.

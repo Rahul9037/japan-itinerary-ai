@@ -1,0 +1,232 @@
+Universal Studios Japan Tickets (2026): There Is No One Price — and the Gate Booth Is Gone | Honto Japan
+
+# Universal Studios Japan Tickets (2026): There Is No One Price — and the Gate Booth Is Gone
+
+ 2026 8/28 
+
+Guide· July 19, 2026· 27 min read· Sourced & cross-checked
+
+Every guide to Universal Studios Japan gives you a ticket price. There isn't one. USJ prices every single date differently, and on the dates bookable when we checked, the same adult day ticket ran anywhere from ¥8,400 to ¥11,900.
+
+That is a 42% spread, which makes when you go the biggest lever you have — bigger than any discount. Three other things have changed recently enough that most English guides are wrong about them: the ticket booths at the gate were abolished in 2025, the booking window is two months, not three, and buying from a resale site gets your QR code voided with you refused at the gate.
+
+Honto check: The prices below are not scraped from a marketing page. We read USJ's own ticket-store backend on August 6, 2026 and pulled every one of the 63 bookable dates, for all three age bands. Rules come from USJ's own content system, each page carrying its own revision date. 🚨 Deliberately not stated: a single ticket price, because none exists; whether a non-Japanese address or phone number is accepted at checkout, because the form sits behind a queue system we could not pass; and what USJ's announced Pokémon project will be, because the operator has published nothing beyond its existence.
+
+TOC
+
+## USJ tickets at a glance
+
+| 🚨 Adult 1-Day | ¥8,400 – ¥11,900 depending on the date. Six price points |
+| --- | --- |
+| Child (4–11) / Senior (65+) | ¥5,500 – ¥7,400 / ¥7,600 – ¥10,700 |
+| Cheapest dates | Midweek outside holidays. Obon is the most expensive week |
+| 🚨 Booking window | Two months before your visit — not three |
+| 🚨 At the gate | No ticket booth. Abolished May 6, 2025 — buy online, even on the day |
+| Express Pass | Does not include admission. ¥11,800 – ¥99,000 on top, and it sells out |
+| 🚨 Super Nintendo World | Free timed entry in the park via the app only · lottery when it runs out |
+| 🚨 Cancellation | None. Any ticket, any reason. Refund only if the whole park closes |
+
+### What the same ticket actually costs across the calendar
+
+USJ runs true per-date dynamic pricing. Its own product data carries the line that the price differs by admission date, and its internal name for park admission inventory is literally flagged as dynamic. So the correct answer to "how much is a ticket" is a range.
+
+| 1-Day Studio Pass | Cheapest | Dearest | Spread |
+| --- | --- | --- | --- |
+| Adult (12+) | ¥8,400 | ¥11,900 | +42% |
+| Child (4–11) | ¥5,500 | ¥7,400 | +35% |
+| Senior (65+) | ¥7,600 | ¥10,700 | +41% |
+
+Those are not estimates. We pulled the price for every one of the 63 dates that were bookable, and they resolve to exactly six price points per age band — USJ does not publish or name these tiers, but they are there in the data.
+
+The single most useful thing in this article: the cheapest dates in the whole window were two ordinary Tuesdays. The dearest were Obon week and a late-September cluster. Moving your park day midweek is worth about ¥3,500 per adult — more than any promotion, student discount or package deal you will be offered.
+
+### 🚨 USJ’s own marketing page disagrees with USJ’s own store
+
+When we checked, the ticket-lineup page advertised the adult 1-Day "from ¥8,900". The live store on the same day was selling it from ¥8,400. The lineup page's own revision date was about three and a half months old.
+
+We use the store. If you are comparing what you see elsewhere against this article and the numbers differ, that is the likely reason — most sources copy the marketing page, which lags.
+
+### Why nobody can tell you when prices went up
+
+Because USJ never says. We swept every press release across 2025 and 2026 — 132 of them — and there is no price-revision announcement at all. Prices simply move inside the dynamic pricing engine. Any article claiming "USJ raised prices on [date]" is not citing USJ.
+
+Age bands, since they catch people out: adult is 12 and over, child is 4 to 11, under 4 free, senior is 65 and over. But a 12-year-old still in elementary school pays the child price, and the school year turns over on April 1.
+
+### The price calendar: how to actually read 2026 prices
+
+USJ publishes a Studio Pass price calendar — the official day-by-day grid behind the "from ¥8,400" adult floor — and the English ticket page points to it directly ("Prices may differ depending on the date. Please check the website for the price calendar."). The live day-by-day figures render inside the official web ticket store, so the reliable routine is: open the store, pick your month, and watch the calendar color-code cheap weekdays against peak Saturdays before locking dates. Seasonal products move around it — summer 2026 added a Night Pass (from ¥5,300, entry from 17:00, July 1–August 31 only) alongside the year-round Twilight Pass (from ¥5,900, entry from 15:00) — and those short-lived products are exactly why screenshots of old calendars mislead. As of August 2026 the posted floors are ¥8,400 adult / ¥5,500 child / ¥7,600 senior for the 1-Day Studio Pass; ceilings aren't published, so budget from the calendar, not from a blog's remembered maximum.
+
+## Buying: when, where, and the booth that no longer exists
+
+A Japanese ticket walkthrough recorded in April 2026, which is roughly as current as this gets. He goes through each purchase route on screen – useful even without the audio, because you can watch which buttons the official flow actually presents.
+
+### Two months ahead, not three
+
+Tickets go on sale two months before your visit date. We confirmed it against the booking calendar itself, which stopped dead at 63 days out.
+
+The three-month figure you will see everywhere was real, briefly — it was a temporary measure for the Osaka Expo period, and USJ said at the time it would revert. It reverted for visit dates after October 13, 2025.
+
+### 🚨 The gate ticket booth is gone
+
+USJ abolished ticket-booth sales on May 6, 2025. Its own announcement states there is no ticket sale in the entrance area after that date. There is no late cutoff online, so you can buy on the morning of your visit — but you will be doing it on your phone, possibly in a queue, at whatever the dynamic price is that day. Any guide describing a walk-up window is describing the park before May 2025.
+
+### Where USJ says you can buy
+
+The operator publishes its authorized channels: the official web ticket store, Lawson Ticket (website and the in-store Loppi kiosks), partner hotels for their own guests, JR West, and eleven named travel agencies.
+
+The large international booking platforms are not on that list. We are wording that carefully on purpose: USJ publishes a list of authorized sellers, not a blocklist, so we will not tell you those platforms are prohibited. We will tell you the operator does not name them — and that combined with the resale policy below, that gap carries real risk.
+
+## 🚨 Resale: the QR gets voided and you get turned away
+
+USJ does not merely disapprove of resale. It states that it tracks resold tickets and voids their QR codes, and that: a third party who bought from a violator cannot enter the park with that ticket; all of the violator's tickets are voided, resold or not, with no refund; USJ accepts no responsibility and offers no compensation for trouble arising from tickets bought on resale sites, auctions or social media; and that continuing to resell while knowing tickets will be voided may constitute fraud, with USJ able to report resellers to police. Its terms ban resale regardless of whether you profit, and bar companies from buying through the store at all. The policy applies to tickets dated from November 2015 onward, and USJ publishes the same warning in English.
+
+### It is not an admission ticket
+
+This is the expensive one. An Express Pass does not get you into the park. You need a separate Studio Pass, and USJ spells out that this is true even for annual pass holders visiting on a blackout date.
+
+Prices currently run from about ¥11,800 for a limited four-attraction Halloween set up to ¥99,000 for the premium unlimited tier — on top of your admission, and themselves varying by date.
+
+### It genuinely sells out
+
+Not a figure of speech. On the day we checked, one representative Express Pass had no availability at all on nine of the sixty-three bookable dates, and one of the dates that was still open was down to seven units. Same-day sales exist but stop the moment stock is gone. If an Express Pass is central to your plan, buy it when the window opens, not when you land.
+
+Two more conditions worth knowing: it is valid only for the purchaser and cannot be shared with a companion, and it cannot be used if you entered on a Twilight Pass. Arrive late for your slot and there is no refund and no time change. Convenience-store payment closes three days before your visit; card and e-money run until the day itself.
+
+### You may not need a ticket at all
+
+Start here, because it is the detail most guides flatten: area entry is conditional. USJ states that depending on conditions on the day, you may be able to walk in without any area ticket. It is only when the park is busy that entry becomes controlled.
+
+### The free route exists only inside the park
+
+When entry is controlled, the free ticket is issued through the official app only — that has been the sole route since January 5, 2026. And it cannot be obtained in advance. USJ requires a same-day pass that has already been scanned at the entrance gate and registered in the app, and states the tickets can only be issued inside the park. If your ticket did not read correctly at the gate, you cannot get one at all. The paid certainty — a guaranteed-entry ticket — exists only bundled into an Express Pass, a VIP tour or an official travel package, bought before you arrive.
+
+### When they run out it becomes a lottery, not a queue
+
+This is the piece that is almost always missing. Once the planned number of timed-entry tickets has been issued, the app switches to issuing standby tickets — and USJ states plainly that these do not guarantee entry. Only winners get in, at the time stated.
+
+- You must draw at least one hour before your desired entry time.
+- Issuing stops three hours before the park closes.
+- Winners are not picked in order of application — drawing early does not help.
+- Results are announced one hour before the entry time.
+- 🚨 One attempt per person per day. If you already took a timed-entry ticket, you cannot enter the lottery as well.
+- 🚨 Groups must draw together. Draw separately and, even if you win, only the number printed on that ticket gets in.
+
+Once issued, the ticket cannot be changed, canceled, transferred or sold — and uninstalling the app voids an unused one. Holding it also guarantees only that you get into the area: attractions, restaurants and shops inside may have already stopped taking people.
+
+## The app, and whether it works before you arrive
+
+You need it, and unlike some Japanese chain apps, this one is genuinely available abroad. We checked Apple's own listing across the Japanese, US, UK and Singapore stores: available in all four, in five languages including English, Korean and both forms of Chinese. It requires iOS 17.0 or later, or Android 9.0 or later — a genuinely high floor that will exclude some older handsets.
+
+Download it before you fly, and update it — USJ states the latest version is required to obtain area tickets. But be clear about what it can and cannot do for you: the area tickets are in-park only, so the app is no use for planning ahead. It is for wait times, show schedules, the map, and consolidating your admission and Express Pass into a single QR code once you are inside. The park has had free Wi-Fi throughout since March 2025.
+
+## Cancellation, changes and payment
+
+| 🚨 Cancellation | Not possible. Any ticket, any reason. A paid cancellation-insurance product exists separately |
+| --- | --- |
+| Date change | Some tickets only · Club Universal members only · within 90 days of the day after your original date |
+| Bought via Lawson or an agency | Guest Services Window in person — you cannot do it online |
+| Ticket type change | Not possible, nor can the purchaser's name be changed |
+| Refund | Only if the whole park closes |
+| 🚨 Re-entry | Not permitted on anything except an annual pass |
+
+One practical trap: printing the same ticket more than once does not create two entries. Only the first copy works, even if you have not been in yourself. And the QR must be shown as the full ticket screen — a cropped image of just the code is not accepted.
+
+🚨 Two payment points that specifically catch foreign visitors. 1. Do not use a virtual card. USJ states that cards with no physical existence cannot complete ticket exchange and some in-park processing. Travel fintech cards fall straight into this. 2. Online and in-park take different things. The online store lists Visa, JCB, Mastercard, AEON, Amex, Diners and Discover — lump-sum only, and with no UnionPay and no Alipay+. Inside the park, overseas-issued cards add UnionPay, and Alipay+ is accepted. So a payment method that works at the gift shop may not work at checkout.
+
+There is also a term worth reading before you assume you can buy from home. USJ's ticket-store terms state the service is for individuals purchasing within Japan, on a machine configured to display Japanese correctly. We could not test whether the form actually enforces that — it sits behind a virtual waiting room — so we are reporting the term, not a verdict. Purchase requires your name, address, phone number and email.
+
+For English help, USJ answers ticket questions by chat and at a dedicated email address, and its phone operators handle English between 9:00 and 17:00 Japan time — though the automated guidance on that line is Japanese only. Note also that everyone passes through metal detectors and X-ray screening before entry, and again on re-entry.
+
+## What is on and what has closed
+
+- 🚨 Sesame Street Fun World closed permanently on May 10, 2026. If a guide still lists it, that guide has not been checked this year.
+- The 25th anniversary program runs to March 30, 2027, with a parade through January 2027 and a paid viewing seat at ¥2,100 — the same price for adults, children and seniors.
+- Halloween Horror Nights runs September 11 to November 8, 2026, its fifteenth year.
+- A new walk-through attraction format launched in 2026 and runs to January 2027, and the Hogwarts castle walk returns September 2026 to January 2027.
+- Annual pass blackout dates are published, and the blackout-day discount changes on a hard date: 30% off through August 23, 2026, then 50% off for entry dates from September 12 to December 31.
+- A Pokémon project was announced in January 2026 — with no date, no format and no location. We are not going to speculate; the operator explicitly deferred all detail.
+
+Planning the wider trip? See USJ opening hours, our Super Nintendo World guide, and the 7-day Japan itinerary for where an Osaka park day fits.
+
+## Frequently asked questions
+
+How much is a USJ ticket?
+
+There is no single answer, and any guide that gives you one is wrong. USJ prices every date separately — its own store data carries the note that the price differs by admission date. Across the 63 dates bookable on August 6, 2026, the adult 1-Day Studio Pass ran from ¥8,400 to ¥11,900, resolving to six distinct price points. Children ran ¥5,500 to ¥7,400 and seniors ¥7,600 to ¥10,700. The dearest day is 42% more than the cheapest, so your travel dates matter more than any discount you will find.
+
+Which dates are cheapest?
+
+Midweek, outside holidays. On the window we checked, the two cheapest dates in the whole calendar were Tuesday September 1 and Tuesday September 8. The most expensive were the Obon week of August 8 to 15 and a cluster in late September. If your itinerary has any flexibility at all, moving a USJ day from a weekend to a Tuesday is worth roughly ¥3,500 per adult — more than any ticket promotion on offer.
+
+How far in advance can I buy?
+
+Two months before your visit date. We verified this against USJ’s own booking calendar, which cut off at exactly 63 days out. You will see three months quoted widely in English — that was a temporary measure for the Osaka Expo period and it expired for visit dates after October 13, 2025. There is no late cutoff at the other end: you can buy on the day itself, but only online.
+
+Can I buy tickets at the gate?
+
+No. USJ abolished its ticket booths on May 6, 2025 and states there is no on-site ticket sale in the entrance area at all. If you arrive without a ticket you are buying it on your phone in the queue. The park also has no entry-only ticket — the Studio Pass is the entry ticket.
+
+Is it safe to buy from Klook or a resale site?
+
+Resale sites, no — emphatically. USJ tracks resold tickets, voids their QR codes, and states that a third party who buys from a violator cannot enter the park. It offers no compensation and no refund, and says continuing to resell in the knowledge that tickets will be voided may constitute fraud. On the big travel platforms, be careful how you read this: USJ publishes a list of authorized channels — its own store, Lawson Ticket, partner hotels, JR West and eleven named travel agencies — and those platforms are not on it. USJ does not publish a blocklist, so we will not tell you they are banned. We will tell you they are not on the operator’s own list.
+
+Does the Express Pass include admission?
+
+No, and this is the most expensive misunderstanding at USJ. An Express Pass is an add-on: you need a separate Studio Pass to get through the gate, and that applies even to annual pass holders on a blackout date. Express Passes currently run from about ¥11,800 to ¥99,000 depending on type and date — on top of your admission. They also sell out: on the day we checked, one representative pass had no availability at all on nine of the sixty-three bookable dates, and one date was down to seven units.
+
+Do I need a ticket for Super Nintendo World?
+
+Sometimes — it depends on how busy the park is that day, and the operator says so explicitly. When entry is controlled, you need either a free timed-entry ticket obtained in the park through the app, or a paid guaranteed-entry ticket bought in advance as part of an Express Pass, VIP tour or travel package. There is no way to get the free one before you arrive: it requires a same-day pass that has already been scanned at the gate, and it can only be issued inside the park.
+
+What happens if the area tickets run out?
+
+It switches to a lottery, which most guides miss. Once the planned number of timed-entry tickets has been issued, the app starts issuing standby tickets instead — and the operator states plainly that these do not guarantee entry. You must enter the draw at least an hour before your desired time, issuing stops three hours before the park closes, winners are not picked in order of application, and results are announced one hour before the entry time. You get one attempt per person per day, and if you already took a timed-entry ticket you cannot then enter the lottery.
+
+Can I cancel or change my ticket?
+
+Cancel, no — for any ticket, for any reason. USJ’s wording is absolute. Date changes are possible for some tickets, but only if you registered a Club Universal account, and only within 90 days of the day after your original date; anyone who bought through Lawson Ticket or a travel agency has to do it at the Guest Services Window in person. You cannot change the ticket type, and refunds happen only if the whole park closes. There is also no re-entry on anything except an annual pass.
+
+Do I need the app, and does it work outside Japan?
+
+You need it for free area entry, and yes it works abroad — we checked Apple’s own listing across the Japanese, US, UK and Singapore stores and it is available in all of them, in five languages, requiring iOS 17.0 or later. Download it before you fly. The catch is not the download: the area tickets it issues can only be obtained inside the park, with a pass already scanned at the gate, so the app is useless for planning ahead and essential once you are through the turnstile.
+
+Where is the USJ price calendar for 2026?
+
+Two official places: the price-calendar page on usj.co.jp (linked from the ticket lineup), and the live day-by-day grid inside the official web ticket store, which is where actual purchasable prices display. The published floor as of August 2026 is Y8,400 for an adult 1-Day Studio Pass; ceilings aren’t published officially. Ignore third-party ‘price calendar’ pages – the store’s grid is the only one tied to real inventory.
+
+What is the USJ Night Pass?
+
+A summer-limited admission product for 2026: entry from 17:00, from Y5,300 adult / Y3,400 child, sold for July 1-August 31, 2026 only. It undercuts the year-round Twilight Pass (from 15:00, from Y5,900) for pure evening visits – but being seasonal, don’t expect it outside the announced window; USJ rotates limited passes each season.
+
+Bottom line (2026) — USJ prices every date individually: the same adult 1-day ticket ranges from ¥8,400 to ¥11,900. Gate ticket booths were abolished in 2025, the booking window is two months, and resold tickets have their QR codes voided — the buyer is refused at the gate. The official app is required, and it works before you arrive in Japan.
+
+## Sources & what we deliberately did not state
+
+The prices in this article were read from USJ's own ticket-store backend on August 6, 2026 — every bookable date, all three age bands — rather than copied from a marketing page, which is why they differ from the figure most sites carry. Rules, channels, the resale policy and the area-entry mechanics come from USJ's own content system, each page carrying its own revision date. The app's availability and languages were checked against Apple's own listing across four countries rather than taken from a description.
+
+Deliberately not stated: a single ticket price, because USJ does not have one; whether a non-Japanese address or phone number passes at checkout, because the form is behind a virtual waiting room we could not clear; whether the big international resellers are permitted, because USJ publishes an authorized list and not a blocklist, and the honest statement is that they are absent from it; and anything about the announced Pokémon project beyond the fact that it was announced. Prices move daily and without announcement. Check the store for your own dates.
+
+- Koyasan (2026): The ¥2,500 Ticket That Can Cost You More
+
+ September 10, 2026
+- Todaiji (2026): Cash Only, and Four Halls Charge Separately
+
+ September 10, 2026
+- Kurashiki (2026): Denim, Masking Tape, White Walls
+
+ September 9, 2026
+- Toyama (2026): 20 Minutes from Kanazawa, and Skipped
+
+ September 9, 2026
+- Chureito Pagoda (2026): Free to See, 1,500 Yen to Park
+
+ September 9, 2026
+- Matsumoto Castle (2026): It Is Not Called Crow Castle
+
+ September 9, 2026
+- Tokyo Christmas Markets (2026): Dates Are Not Out Yet
+
+ September 8, 2026
+- Sotetsu Fresa Inn (2026): 42 Hotels, Easy to Book Wrong
+
+ September 8, 2026

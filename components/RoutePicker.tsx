@@ -1,77 +1,20 @@
-"use client";
+import { PlaceCard } from "@/components/PlaceCard";
+import { places, routes, type RouteOption } from "@/lib/options";
+import Link from "next/link";
 
-import { usePlanner } from "@/components/PlannerProvider";
-import { places, routes, type Place } from "@/lib/options";
-import { useState } from "react";
-
-function PlaceCard({ place }: { place: Place }) {
-  const [play, setPlay] = useState(false);
-  return (
-    <article className="overflow-hidden rounded-2xl bg-white shadow-sm">
-      <img src={place.image} alt={place.imageAlt} className="h-48 w-full object-cover" />
-      <div className="p-5">
-        <h3 className="font-serif text-2xl">{place.name}</h3>
-        <p className="mt-2 text-sm leading-6 text-ink-soft">{place.blurb}</p>
-        <div className="mt-4 aspect-video overflow-hidden rounded-xl bg-night">
-          {play ? (
-            <iframe
-              className="h-full w-full"
-              src={`https://www.youtube-nocookie.com/embed/${place.video.id}?autoplay=1`}
-              title={place.video.title}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          ) : (
-            <button
-              type="button"
-              onClick={() => setPlay(true)}
-              className="flex h-full w-full items-center justify-center text-sm text-[#f4efe6]"
-            >
-              Play film — {place.video.title}
-            </button>
-          )}
-        </div>
-        <ul className="mt-3 space-y-1">
-          {place.links.map((l) => (
-            <li key={l.href}>
-              <a
-                href={l.href}
-                target="_blank"
-                rel="noreferrer"
-                className="text-sm text-maple underline underline-offset-4"
-              >
-                {l.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </article>
-  );
-}
-
-export function RoutePicker() {
-  const { route, routeId, selectRoute } = usePlanner();
+export function RoutePicker({ route }: { route: RouteOption }) {
   const routePlaces = route.placeIds.map((id) => places.find((p) => p.id === id)!);
-
-  function onSelect(id: string) {
-    selectRoute(id);
-    window.requestAnimationFrame(() => {
-      document.getElementById("days")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
-  }
 
   return (
     <div>
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
         {routes.map((r) => {
-          const on = r.id === routeId;
+          const on = r.id === route.id;
           return (
-            <button
+            <Link
               key={r.id}
-              type="button"
-              aria-pressed={on}
-              onClick={() => onSelect(r.id)}
+              href={`/?route=${r.id}#days`}
+              scroll
               className={`rounded-2xl border p-4 text-left transition ${
                 on
                   ? "border-maple bg-maple-deep text-[#f4efe6] shadow-sm"
@@ -85,7 +28,7 @@ export function RoutePicker() {
               <p className={`mt-2 text-xs leading-5 ${on ? "text-[#f4efe6]/75" : "text-ink-soft"}`}>
                 {r.corePerAdult} core
               </p>
-            </button>
+            </Link>
           );
         })}
       </div>
@@ -128,7 +71,7 @@ export function RoutePicker() {
         <h4 className="mt-8 font-serif text-xl">Places, films, official pages</h4>
         <div className="mt-4 grid gap-6 lg:grid-cols-3">
           {routePlaces.map((p) => (
-            <PlaceCard key={`${routeId}-${p.id}`} place={p} />
+            <PlaceCard key={`${route.id}-${p.id}`} place={p} />
           ))}
         </div>
       </div>

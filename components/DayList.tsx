@@ -1,26 +1,27 @@
 "use client";
 
-import { usePlanner } from "@/components/PlannerProvider";
-import { useEffect, useState } from "react";
+import type { TripDay } from "@/lib/trip";
+import { useState } from "react";
 
-export function DayList() {
-  const { days, route } = usePlanner();
+export function DayList({
+  days,
+  routeName,
+}: {
+  days: TripDay[];
+  routeName: string;
+}) {
   const [open, setOpen] = useState(days[0]?.id ?? "");
-
-  useEffect(() => {
-    setOpen(days[0]?.id ?? "");
-  }, [route.id, days]);
 
   return (
     <div className="space-y-3">
       <p className="rounded-xl bg-maple-deep px-4 py-3 text-sm text-[#f4efe6]">
-        Showing: <strong>{route.name}</strong>. Click another card above to switch this list.
+        Showing: <strong>{routeName}</strong>
       </p>
       {days.map((d) => {
         const isOpen = open === d.id;
         return (
           <article
-            key={`${route.id}-${d.id}`}
+            key={d.id}
             className="overflow-hidden rounded-2xl border border-[#1c1410]/10 bg-white/70 shadow-sm"
           >
             <button
