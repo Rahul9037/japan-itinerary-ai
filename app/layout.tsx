@@ -14,9 +14,9 @@ const serif = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Kansai family autumn — locked itinerary",
+  title: "Tokyo · Fuji · Kyoto — family itinerary",
   description:
-    "8-night Osaka-based Japan trip for 4 adults and one 18-month-old, 20–28 Nov 2026, under ₹1 lakh per adult.",
+    "9-night Japan trip from Bangalore for 4 adults and an 18-month-old: Tokyo, Kawaguchiko, Kyoto. Shopping extra.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

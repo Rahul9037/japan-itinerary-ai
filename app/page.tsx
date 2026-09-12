@@ -6,22 +6,25 @@ import {
   doNotBook,
   flights,
   foodRules,
-  hotels,
+  hotelSkip,
   inr,
   optionalExtras,
   packingAdult,
   perPerson,
+  shopping,
+  stays,
   transportCheat,
   trip,
   visaDocs,
 } from "@/lib/trip";
 
 const nav = [
-  ["decision", "Dates"],
+  ["decision", "Why"],
   ["budget", "Budget"],
-  ["book", "Book this"],
+  ["shop", "Shopping"],
+  ["book", "Book"],
   ["days", "Days"],
-  ["stay", "Hotel"],
+  ["stay", "Hotels"],
   ["move", "Trains"],
   ["baby", "Baby"],
   ["paper", "Visa"],
@@ -33,7 +36,7 @@ export default function Home() {
       <nav className="no-print sticky top-0 z-20 border-b border-[#1c1410]/10 bg-[#f4efe6]/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 overflow-x-auto px-4 py-3">
           <a href="#top" className="shrink-0 font-serif text-lg text-maple-deep">
-            Kansai · Nov 2026
+            Tokyo · Fuji · Kyoto
           </a>
           <div className="flex gap-4 text-xs font-medium uppercase tracking-wider text-ink-soft">
             {nav.map(([id, label]) => (
@@ -53,16 +56,15 @@ export default function Home() {
         <div className="relative mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-[1.2fr_0.8fr] md:py-24">
           <div>
             <p className="text-xs font-medium uppercase tracking-[0.28em] text-gold">
-              Locked family plan · Bangalore origin
+              Revised family plan · Bangalore origin
             </p>
             <h1 className="mt-4 font-serif text-4xl leading-tight md:text-6xl">
-              Eight nights in Osaka.
-              <span className="block text-gold">Kyoto when the maples turn.</span>
+              Tokyo, then the lake,
+              <span className="block text-gold">then Kyoto. Slowly.</span>
             </h1>
             <p className="mt-6 max-w-xl text-base leading-7 text-[#f4efe6]/80">
-              For 4 adults and a 1½-year-old. One hotel. No Shinkansen. No JR Pass. Second half of
-              November, not the first week. Planned so you book the list below and stop comparing
-              tabs.
+              4 adults and a 1½-year-old. Three cities, nine nights, one bullet train. Shopping is
+              its own wallet. Fuji is the snow you can actually book in November.
             </p>
             <dl className="mt-8 grid grid-cols-2 gap-4 text-sm sm:grid-cols-4">
               <div>
@@ -71,36 +73,35 @@ export default function Home() {
               </div>
               <div>
                 <dt className="text-[#f4efe6]/50">Leave BLR</dt>
-                <dd className="mt-1 font-serif text-xl">19 Nov night</dd>
+                <dd className="mt-1 font-serif text-xl">18 Nov night</dd>
               </div>
               <div>
-                <dt className="text-[#f4efe6]/50">Per adult</dt>
+                <dt className="text-[#f4efe6]/50">Core / adult</dt>
                 <dd className="mt-1 font-serif text-xl">{inr(trip.perAdult)}</dd>
               </div>
               <div>
-                <dt className="text-[#f4efe6]/50">Family all-in</dt>
-                <dd className="mt-1 font-serif text-xl">{inr(trip.familyTotal)}</dd>
+                <dt className="text-[#f4efe6]/50">Shopping</dt>
+                <dd className="mt-1 font-serif text-xl">Extra</dd>
               </div>
             </dl>
           </div>
           <aside className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
-            <p className="text-xs uppercase tracking-[0.2em] text-gold">Do this, not that</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-gold">Locked shape</p>
             <ul className="mt-4 space-y-3 text-sm leading-6">
               <li>
-                <strong className="text-white">Fly into Kansai (KIX).</strong> Tokyo would add a
-                bullet-train bill you cannot afford on this cap.
+                <strong className="text-white">Tokyo 4 nights, Asakusa.</strong> One full shopping
+                day. No Disney.
               </li>
               <li>
-                <strong className="text-white">Sleep in Namba for all 8 nights.</strong> Day-trip
-                Kyoto, Nara, Kobe.
+                <strong className="text-white">Kawaguchiko 2 nights.</strong> Snow-capped Fuji, not
+                street snow.
               </li>
               <li>
-                <strong className="text-white">Book 20–28 Nov.</strong> First week of November is
-                the wrong foliage for city temples.
+                <strong className="text-white">Kyoto 3 nights.</strong> One side of the city per day.
               </li>
               <li>
-                <strong className="text-white">Ceiling {inr(trip.ceiling)} / adult.</strong> If a
-                flight quote is over ₹55k, wait 48 hours or change the stop, do not add Tokyo.
+                <strong className="text-white">Core {inr(trip.perAdult)}.</strong> Adding Tokyo +
+                two hotel changes will not fit ₹1 lakh. Shopping is on top.
               </li>
             </ul>
           </aside>
@@ -110,37 +111,33 @@ export default function Home() {
       <main className="mx-auto max-w-6xl space-y-20 px-4 py-16">
         <section id="decision">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">The call</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Why this week, why only Kansai</h2>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Why this shape</h2>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             <div className="rounded-2xl bg-white/80 p-6 shadow-sm">
-              <h3 className="font-serif text-xl">Second half of November</h3>
+              <h3 className="font-serif text-xl">Dates</h3>
               <p className="mt-3 text-sm leading-7 text-ink-soft">{trip.whyWindow}</p>
               <p className="mt-3 text-sm leading-7 text-ink-soft">{trip.whyNotFirstWeek}</p>
-              <p className="mt-3 text-sm leading-7 text-ink">
-                23 Nov 2026 is a Japanese national holiday. That day is locked as an indoor Osaka
-                aquarium day so you are not standing in a Kyoto queue with a toddler.
-              </p>
             </div>
-            <div className="rounded-2xl bg-pine text-[#f4efe6] p-6">
-              <h3 className="font-serif text-xl">What you will actually remember</h3>
-              <ul className="mt-4 list-disc space-y-2 pl-4 text-sm leading-6">
-                <li>Dotonbori at night, without dragging suitcases to a second city</li>
-                <li>Nara deer — the baby’s favourite hour of the trip</li>
-                <li>Fushimi gates in the morning, Kiyomizu maples, Arashiyama river</li>
-                <li>Whale shark at Kaiyukan on the holiday Monday</li>
-                <li>One shared Kobe steak, not four ruinous plates</li>
-              </ul>
+            <div className="rounded-2xl bg-pine p-6 text-[#f4efe6]">
+              <h3 className="font-serif text-xl">Snow, honestly</h3>
+              <p className="mt-3 text-sm leading-7">{trip.snowTruth}</p>
+              <p className="mt-3 text-sm leading-7 text-[#f4efe6]/80">
+                23 Nov 2026 is a national holiday. You spend it at the lake, not in a Tokyo shop or
+                a Kyoto queue.
+              </p>
             </div>
           </div>
         </section>
 
         <section id="budget">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Money</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Family total {inr(trip.familyTotal)}</h2>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">
+            Core {inr(trip.familyTotal)} · {inr(trip.perAdult)} each
+          </h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">
-            Split four ways: {inr(trip.perAdult)} per adult. The infant is folded into the family
-            total (lap fare, visa, snacks). Yen converted at ¥1 ≈ ₹0.56. Recheck the rate when you
-            pay hotels.
+            This is flights, visas, hotels, trains, food, and tickets. It is above ₹1 lakh because
+            Tokyo + Fuji + Kyoto with four adults cannot be done slowly for less. Shopping is{" "}
+            {trip.shoppingExtra} Yen at ¥1 ≈ ₹0.56.
           </p>
 
           <div className="mt-8 overflow-x-auto rounded-2xl border border-[#1c1410]/10 bg-white">
@@ -161,9 +158,9 @@ export default function Home() {
                   </tr>
                 ))}
                 <tr className="border-t-2 border-maple bg-maple/8 font-semibold">
-                  <td className="px-4 py-3">Family all-in</td>
+                  <td className="px-4 py-3">Family core (no shopping)</td>
                   <td className="px-4 py-3">{inr(trip.familyTotal)}</td>
-                  <td className="px-4 py-3">{inr(trip.perAdult)} × 4 adults</td>
+                  <td className="px-4 py-3">{inr(trip.perAdult)} × 4</td>
                 </tr>
               </tbody>
             </table>
@@ -179,9 +176,25 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="shop">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Own wallet</p>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Shopping — outside the trip budget</h2>
+          <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">{shopping.note}</p>
+          <p className="mt-2 text-sm font-medium text-maple">{shopping.budgetHint}</p>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {shopping.days.map((s) => (
+              <div key={s.where} className="rounded-2xl bg-white p-5">
+                <p className="text-xs uppercase tracking-wider text-gold">{s.when}</p>
+                <p className="mt-1 font-serif text-xl">{s.where}</p>
+                <p className="mt-2 text-sm leading-6 text-ink-soft">{s.what}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <section id="book">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Sequence</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Book in this order. Stop shopping.</h2>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Book in this order</h2>
           <ol className="mt-8 space-y-4">
             {bookingOrder.map((b, i) => (
               <li key={b.title} className="rounded-2xl border border-[#1c1410]/10 bg-white/80 p-6">
@@ -210,7 +223,7 @@ export default function Home() {
           </ol>
 
           <div className="mt-8 rounded-2xl bg-white p-6">
-            <h3 className="font-serif text-2xl">Flights — exact brief for the ticket desk</h3>
+            <h3 className="font-serif text-2xl">Flights</h3>
             <ul className="mt-4 space-y-2 text-sm leading-7">
               <li>
                 <strong>Route:</strong> {flights.routing}
@@ -228,7 +241,7 @@ export default function Home() {
                 <strong>Bags:</strong> {flights.bags}
               </li>
               <li>
-                <strong>Do not buy:</strong> {flights.avoid}
+                <strong>Avoid:</strong> {flights.avoid}
               </li>
             </ul>
           </div>
@@ -236,10 +249,10 @@ export default function Home() {
 
         <section id="days">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Itinerary</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Open a day. Follow it.</h2>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">One neighbourhood a day</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">
-            Each Japan day has a nap window. If you skip the nap, the evening in Dotonbori will
-            fail. Kyoto is two separate days so you are not crossing the city with a tired child.
+            Nap windows stay in. Big bags go Tokyo → Kyoto by courier so the Fuji nights are light.
+            Nara and Osaka hotels are cut on purpose.
           </p>
           <div className="mt-8">
             <DayList />
@@ -248,54 +261,48 @@ export default function Home() {
 
         <section id="stay">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Beds</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">{hotels.primary.name}</h2>
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
-            <div className="rounded-2xl bg-white p-6">
-              <dl className="space-y-3 text-sm leading-6">
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Three hotels, two rooms each</h2>
+          <div className="mt-8 grid gap-6">
+            {stays.map((h) => (
+              <div key={h.city} className="grid gap-4 rounded-2xl bg-white p-6 md:grid-cols-2">
                 <div>
-                  <dt className="text-ink-soft">Stay</dt>
-                  <dd>{hotels.primary.stay}</dd>
+                  <p className="text-xs uppercase tracking-wider text-maple">{h.city}</p>
+                  <h3 className="mt-1 font-serif text-2xl">{h.name}</h3>
+                  <dl className="mt-4 space-y-2 text-sm leading-6">
+                    <div>
+                      <dt className="text-ink-soft">Stay</dt>
+                      <dd>{h.stay}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-ink-soft">Rooms</dt>
+                      <dd>{h.rooms}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-ink-soft">Nightly / trip</dt>
+                      <dd>
+                        {h.nightly} · {h.total}
+                      </dd>
+                    </div>
+                    <div>
+                      <dt className="text-ink-soft">If sold out</dt>
+                      <dd>{h.alt}</dd>
+                    </div>
+                  </dl>
                 </div>
-                <div>
-                  <dt className="text-ink-soft">Rooms</dt>
-                  <dd>{hotels.primary.rooms}</dd>
+                <div className="text-sm leading-7">
+                  <p>{h.why}</p>
+                  <p className="mt-3 text-ink-soft">{h.walk}</p>
                 </div>
-                <div>
-                  <dt className="text-ink-soft">Nightly</dt>
-                  <dd>{hotels.primary.nightly}</dd>
-                </div>
-                <div>
-                  <dt className="text-ink-soft">Trip total</dt>
-                  <dd className="font-medium">{hotels.primary.total}</dd>
-                </div>
-                <div>
-                  <dt className="text-ink-soft">Walk</dt>
-                  <dd>{hotels.primary.walk}</dd>
-                </div>
-                <div>
-                  <dt className="text-ink-soft">How to book</dt>
-                  <dd>{hotels.primary.book}</dd>
-                </div>
-                <div>
-                  <dt className="text-ink-soft">If sold out</dt>
-                  <dd>{hotels.primary.alt}</dd>
-                </div>
-              </dl>
-            </div>
-            <div className="rounded-2xl bg-maple-deep p-6 text-[#f4efe6]">
-              <h3 className="font-serif text-2xl">Why this hotel, not a nicer one</h3>
-              <ul className="mt-4 list-disc space-y-2 pl-4 text-sm leading-6">
-                {hotels.primary.why.map((w) => (
-                  <li key={w}>{w}</li>
-                ))}
-              </ul>
-              <h3 className="mt-6 font-serif text-xl">Do not book</h3>
-              <ul className="mt-2 list-disc space-y-2 pl-4 text-sm leading-6 text-[#f4efe6]/85">
-                {hotels.skip.map((s) => (
-                  <li key={s}>{s}</li>
-                ))}
-              </ul>
-            </div>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 rounded-2xl bg-maple-deep p-6 text-[#f4efe6]">
+            <h3 className="font-serif text-xl">Do not book</h3>
+            <ul className="mt-3 list-disc space-y-2 pl-4 text-sm leading-6">
+              {hotelSkip.map((s) => (
+                <li key={s}>{s}</li>
+              ))}
+            </ul>
           </div>
         </section>
 
@@ -338,7 +345,7 @@ export default function Home() {
 
         <section>
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Food</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">How you eat for ₹12,750 / adult</h2>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">How you eat for {inr(12600)} / adult</h2>
           <ul className="mt-6 space-y-2 text-sm leading-7">
             {foodRules.map((r) => (
               <li key={r} className="rounded-xl bg-white/80 px-4 py-3">
@@ -350,7 +357,7 @@ export default function Home() {
 
         <section id="baby">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">18 months</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Baby kit and rules of the road</h2>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Baby kit</h2>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {babyKit.map((b) => (
               <div key={b.item} className="rounded-2xl bg-white p-5">
@@ -359,20 +366,13 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <ul className="mt-6 list-disc space-y-2 pl-5 text-sm leading-7 text-ink">
-            <li>Two adults on ‘baby duty’, two on bags/tickets, rotate each day.</li>
-            <li>Public toilets in stations have changing tables more often than temples do.</li>
-            <li>Most trains: children under 6 ride free if they sit on a lap and do not take a reserved seat of their own.</li>
-            <li>Pharmacies: look for a green cross. For fever after hours, the hotel will call a clinic; insurance PDF on the phone.</li>
-          </ul>
         </section>
 
         <section id="paper">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Paperwork</p>
           <h2 className="mt-2 font-serif text-3xl md:text-4xl">Visa file for VFS Bangalore</h2>
           <p className="mt-3 text-sm leading-7 text-ink-soft">
-            Indians still pay ₹500 + ₹800 VFS even after the 2026 global fee hike. Apply about 6–8
-            weeks out. Baby needs a full application. No visa on arrival.
+            ₹500 + ₹800 VFS each, including the baby. Apply 6–8 weeks out. No visa on arrival.
           </p>
           <ul className="mt-6 grid gap-2 md:grid-cols-2">
             {visaDocs.map((v) => (
@@ -381,7 +381,7 @@ export default function Home() {
               </li>
             ))}
           </ul>
-          <h3 className="mt-10 font-serif text-2xl">Adult packing (keep it small)</h3>
+          <h3 className="mt-10 font-serif text-2xl">Adult packing</h3>
           <ul className="mt-4 list-disc pl-5 text-sm leading-7">
             {packingAdult.map((p) => (
               <li key={p}>{p}</li>
@@ -390,8 +390,8 @@ export default function Home() {
         </section>
 
         <section>
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">If someone insists</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">The only extras, with prices</h2>
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Only if</p>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Extras that still fit the pace</h2>
           <div className="mt-6 space-y-3">
             {optionalExtras.map((o) => (
               <div key={o.extra} className="rounded-2xl border border-[#1c1410]/10 bg-white p-5">
@@ -405,8 +405,8 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-[#1c1410]/10 px-4 py-10 text-center text-sm text-ink-soft">
-        Planning figures for 4 adults + infant, Bangalore → Kansai, 19–28 Nov 2026. Confirm live
-        fares, hotel calendars and VFS document lists before you pay. Not a booking agency.
+        Core figures for 4 adults + infant, Bangalore → Tokyo / Kyoto-KIX, 18–28 Nov 2026. Shopping
+        excluded. Confirm live fares before you pay.
       </footer>
     </div>
   );

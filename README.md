@@ -1,28 +1,14 @@
-# Kansai family autumn (Bangalore → Osaka)
+# Tokyo · Fuji · Kyoto (from Bangalore)
 
-Locked 8-night plan for **4 adults + one 18-month-old**, **20–28 November 2026**, sleeping in Namba and day-tripping Kyoto, Nara and Kobe. Target **₹98,400 per adult** all-in (family ₹3,93,600). Do not add Tokyo or a JR Pass on this budget.
+Family plan for **4 adults + one 18-month-old**, **19–28 November 2026**.
 
-Open the site, follow the booking order, print the visa page.
+Three hotels only: **Asakusa (4N) → Kawaguchiko (2N) → Kyoto (3N)**. Land Tokyo, leave Kansai. Shopping is a separate wallet. Fuji is a snow-capped mountain, not Tokyo street snow.
 
-## Run locally
+**Core cost ~ ₹1,21,000 per adult** (family ₹4,84,000). That is above ₹1 lakh because Tokyo + two hotel changes will not fit the old Osaka-only number.
 
 ```bash
 npm install
 npm run dev
 ```
 
-App: [http://127.0.0.1:43147](http://127.0.0.1:43147)
-
-## What is locked
-
-| | |
-|---|---|
-| Fly | BLR ↔ **KIX** (1 stop, not Tokyo) |
-| Sleep | **Toyoko Inn Osaka Namba**, 2 rooms, 8 nights, breakfast |
-| Move | Nankai Airport Express + ICOCA. No Shinkansen |
-| Peak day | Kyoto east 24 Nov, Arashiyama 25 Nov, aquarium on the 23 Nov holiday |
-| Skip | USJ, Hiroshima, nationwide JR Pass, first week of November |
-
-Yen in the tables uses ¥1 ≈ ₹0.56. Recheck when you pay.
-
-Figures are planning estimates (Sep 2026), not live quotes.
+Open [http://127.0.0.1:43147](http://127.0.0.1:43147).
