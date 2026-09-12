@@ -22,7 +22,9 @@ import {
 } from "@/lib/trip";
 
 const nav = [
-  ["routes", "5 routes"],
+  ["october", "If 16 Oct"],
+  ["october", "16 Oct"],
+  ["routes", "6 routes"],
   ["decision", "Why"],
   ["budget", "Budget"],
   ["shop", "Shopping"],
@@ -120,12 +122,74 @@ export default async function Home({ searchParams }: PageProps<"/">) {
       </header>
 
       <main className="mx-auto max-w-6xl space-y-20 px-4 py-16">
+        <section id="october" className="rounded-3xl bg-maple-deep p-6 text-[#f4efe6] md:p-10">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold">If you go 16 October</p>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Switch the route. Keep the pace.</h2>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-[#f4efe6]/85">
+            Friday 16 Oct 2026 is a good family start date, but it is the wrong week for Kyoto
+            maples and for Fuji snow. Colour is in the mountains near Tokyo — especially Nikko’s
+            Lake Chuzenji / Kegon Falls (typical peak about 15–22 Oct). Cities will still look
+            mostly green. Mornings are jacket weather, not snow.
+          </p>
+          <div className="mt-6 overflow-x-auto rounded-2xl bg-black/20">
+            <table className="min-w-full text-left text-sm">
+              <thead>
+                <tr className="text-gold">
+                  <th className="px-4 py-3">Need</th>
+                  <th className="px-4 py-3">Late November plan</th>
+                  <th className="px-4 py-3">16 October instead</th>
+                </tr>
+              </thead>
+              <tbody className="text-[#f4efe6]/90">
+                <tr className="border-t border-white/10">
+                  <td className="px-4 py-3">Foliage</td>
+                  <td className="px-4 py-3">Kyoto + Tokyo gardens</td>
+                  <td className="px-4 py-3">Nikko highlands. Kyoto still green.</td>
+                </tr>
+                <tr className="border-t border-white/10">
+                  <td className="px-4 py-3">Snow</td>
+                  <td className="px-4 py-3">Fuji white summit, maybe lake flurries</td>
+                  <td className="px-4 py-3">Do not plan on snow at all.</td>
+                </tr>
+                <tr className="border-t border-white/10">
+                  <td className="px-4 py-3">Shopping</td>
+                  <td className="px-4 py-3">Sat 21 Nov</td>
+                  <td className="px-4 py-3">Sat 17 Oct in Tokyo. Still extra wallet.</td>
+                </tr>
+                <tr className="border-t border-white/10">
+                  <td className="px-4 py-3">Baby / weather</td>
+                  <td className="px-4 py-3">Lake 2–6°C mornings</td>
+                  <td className="px-4 py-3">Tokyo ~18°C. Nikko cooler, kinder than November.</td>
+                </tr>
+                <tr className="border-t border-white/10">
+                  <td className="px-4 py-3">Book this</td>
+                  <td className="px-4 py-3">Fuji-lake or Hakone route</td>
+              <td className="px-4 py-3">
+                Card: <strong>16 Oct 2026</strong> · 16–25 Oct · ~₹1.15 lakh core
+              </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-6 text-sm leading-7">
+            Locked Oct dates: leave Bangalore <strong>Thu 15 Oct night</strong>, Japan{" "}
+            <strong>Fri 16 – Sun 25 Oct</strong>, Asakusa 3N → Nikko 2N → Kyoto 4N. Go up to
+            Chuzenji on Monday 19–Tuesday 20 so you miss weekend Irohazaka traffic.
+          </p>
+          <a
+            href="/?route=route-oct16#days"
+            className="mt-4 inline-block rounded-full bg-gold px-5 py-2 text-sm font-semibold text-night"
+          >
+            Open the 16 Oct itinerary
+          </a>
+        </section>
+
         <section id="routes">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Choose</p>
-          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Four needs, five itineraries</h2>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Six itineraries — November stays as they were</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">
-            Click a card. The page reloads that route’s hotels, days, photos, and films. You can
-            also open Days in the top bar after picking.
+            The first five cards are the November plans. The sixth card is only for a 16 October
+            start. Click a card; the days below follow that route.
           </p>
           <div className="mt-8">
             <RoutePicker route={route} />

@@ -7,7 +7,7 @@ export function RoutePicker({ route }: { route: RouteOption }) {
 
   return (
     <div>
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
+      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {routes.map((r) => {
           const on = r.id === route.id;
           return (
