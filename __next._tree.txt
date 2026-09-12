@@ -1,0 +1,6 @@
+:HL["/japan-itinerary-ai/_next/static/chunks/13y1jjwp3w15m.css","style"]
+:HL["/japan-itinerary-ai/_next/static/chunks/1e8emdhkl125u.css","style"]
+:HL["/japan-itinerary-ai/_next/static/chunks/3t9j883gqq-p8.css","style"]
+:HL["/japan-itinerary-ai/_next/static/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/japan-itinerary-ai/_next/static/media/68d0ad77fd2c49e3-s.p.2th5n88-8_65v.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"Itps4j4uugTTNi0fXZvrB"}
