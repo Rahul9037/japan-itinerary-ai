@@ -140,7 +140,20 @@ export const flights = {
   routing: "Land Tokyo (NRT preferred for Skyliner to Ueno/Asakusa). Leave from Kansai (KIX) on the Haruka from Kyoto.",
 };
 
-export const days = [
+export type TripDay = {
+  id: string;
+  date: string;
+  city: string;
+  title: string;
+  pace: string;
+  spend: string;
+  plan: string[];
+  eat: string;
+  move: string;
+  baby: string;
+};
+
+export const days: TripDay[] = [
   {
     id: "d0",
     date: "Wed 18 Nov",

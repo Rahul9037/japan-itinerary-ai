@@ -135,7 +135,7 @@ export type RouteOption = {
 
 export const routes: RouteOption[] = [
   {
-    id: "fuji",
+    id: "route-fuji",
     badge: "Best match",
     name: "Tokyo · Fuji lake · Kyoto",
     tagline: "Tokyo shopping, a snow-capped Fuji, Kyoto maples. Two hotel changes only.",
@@ -164,7 +164,7 @@ export const routes: RouteOption[] = [
     watchOut: "23 Nov buses sell out. Fuji hides in cloud about half the time — that is why you stay two nights.",
   },
   {
-    id: "hakone",
+    id: "route-hakone",
     badge: "Easier trains",
     name: "Tokyo · Hakone onsen · Kyoto",
     tagline: "Same three-stop idea, but Hakone is a train town with onsen instead of a highway bus to the lake.",
@@ -189,7 +189,7 @@ export const routes: RouteOption[] = [
     watchOut: "Ropeway and pirate ships get packed on the 23 Nov holiday. Book the Freepass; skip Owakudani if sulphur and crowds stress the baby.",
   },
   {
-    id: "nikko",
+    id: "route-nikko",
     badge: "If you go 1–8 Nov",
     name: "Tokyo · Nikko highlands · Kyoto",
     tagline: "Use this only for the first week of November, when Nikko is colder and Kyoto is still mostly green.",
@@ -214,7 +214,7 @@ export const routes: RouteOption[] = [
     watchOut: "Do not run this in late November instead of Fuji — you would miss Kyoto peak colour and sit in Nikko after the maples.",
   },
   {
-    id: "osaka",
+    id: "route-osaka",
     badge: "Max shopping",
     name: "Tokyo · Kyoto · Osaka",
     tagline: "Three cities, no mountain. Best if shopping and food matter more than any snow.",
@@ -239,7 +239,7 @@ export const routes: RouteOption[] = [
     watchOut: "Four adults will spend more in Dotonbori than the core budget. That is still the extra wallet.",
   },
   {
-    id: "kanazawa",
+    id: "route-kanazawa",
     badge: "Calmest",
     name: "Tokyo · Kanazawa · Kyoto",
     tagline: "Quieter middle city, Kenrokuen maples, gold-leaf souvenirs. Least snow, least noise.",

@@ -1,4 +1,5 @@
 import { DayList } from "@/components/DayList";
+import { PlannerProvider } from "@/components/PlannerProvider";
 import { RoutePicker } from "@/components/RoutePicker";
 import {
   babyKit,
@@ -112,6 +113,7 @@ export default function Home() {
         </div>
       </header>
 
+      <PlannerProvider>
       <main className="mx-auto max-w-6xl space-y-20 px-4 py-16">
         <section id="routes">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Choose</p>
@@ -268,8 +270,7 @@ export default function Home() {
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Itinerary</p>
           <h2 className="mt-2 font-serif text-3xl md:text-4xl">One neighbourhood a day</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">
-            Nap windows stay in. Big bags go Tokyo → Kyoto by courier so the Fuji nights are light.
-            Nara and Osaka hotels are cut on purpose.
+            Nap windows stay in. The list below follows whichever route card is selected.
           </p>
           <div className="mt-8">
             <DayList />
@@ -420,6 +421,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      </PlannerProvider>
 
       <footer className="border-t border-[#1c1410]/10 px-4 py-10 text-center text-sm text-ink-soft">
         Core figures for 4 adults + infant. Photos: Unsplash. Films: official tourism YouTube.
