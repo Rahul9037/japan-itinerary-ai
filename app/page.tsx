@@ -1,4 +1,5 @@
 import { DayList } from "@/components/DayList";
+import { RoutePicker } from "@/components/RoutePicker";
 import {
   babyKit,
   bookingOrder,
@@ -19,6 +20,7 @@ import {
 } from "@/lib/trip";
 
 const nav = [
+  ["routes", "5 routes"],
   ["decision", "Why"],
   ["budget", "Budget"],
   ["shop", "Shopping"],
@@ -36,7 +38,7 @@ export default function Home() {
       <nav className="no-print sticky top-0 z-20 border-b border-[#1c1410]/10 bg-[#f4efe6]/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 overflow-x-auto px-4 py-3">
           <a href="#top" className="shrink-0 font-serif text-lg text-maple-deep">
-            Tokyo · Fuji · Kyoto
+            5 Japan routes
           </a>
           <div className="flex gap-4 text-xs font-medium uppercase tracking-wider text-ink-soft">
             {nav.map(([id, label]) => (
@@ -59,12 +61,13 @@ export default function Home() {
               Revised family plan · Bangalore origin
             </p>
             <h1 className="mt-4 font-serif text-4xl leading-tight md:text-6xl">
-              Tokyo, then the lake,
-              <span className="block text-gold">then Kyoto. Slowly.</span>
+              Five ways to do this trip.
+              <span className="block text-gold">Pick one. Then book.</span>
             </h1>
             <p className="mt-6 max-w-xl text-base leading-7 text-[#f4efe6]/80">
-              4 adults and a 1½-year-old. Three cities, nine nights, one bullet train. Shopping is
-              its own wallet. Fuji is the snow you can actually book in November.
+              Same family, same 8–10 days from Bangalore. Each route keeps Tokyo, a second city,
+              shopping time, and a slow pace. Snow is honest: likely only at Fuji or Nikko, never
+              in the shopping streets.
             </p>
             <dl className="mt-8 grid grid-cols-2 gap-4 text-sm sm:grid-cols-4">
               <div>
@@ -86,22 +89,23 @@ export default function Home() {
             </dl>
           </div>
           <aside className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
-            <p className="text-xs uppercase tracking-[0.2em] text-gold">Locked shape</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-gold">What every route keeps</p>
             <ul className="mt-4 space-y-3 text-sm leading-6">
               <li>
-                <strong className="text-white">Tokyo 4 nights, Asakusa.</strong> One full shopping
-                day. No Disney.
+                <strong className="text-white">Tokyo.</strong> Hotel in Asakusa, one shopping day
+                (money extra).
               </li>
               <li>
-                <strong className="text-white">Kawaguchiko 2 nights.</strong> Snow-capped Fuji, not
-                street snow.
+                <strong className="text-white">A second city, then Kyoto.</strong> Never 9 nights
+                in one place. Never four hotel changes.
               </li>
               <li>
-                <strong className="text-white">Kyoto 3 nights.</strong> One side of the city per day.
+                <strong className="text-white">Slow days.</strong> Nap window. One district at a
+                time with the baby.
               </li>
               <li>
-                <strong className="text-white">Core {inr(trip.perAdult)}.</strong> Adding Tokyo +
-                two hotel changes will not fit ₹1 lakh. Shopping is on top.
+                <strong className="text-white">Core ~₹1.16–1.22 lakh / adult.</strong> Shopping on
+                top. Snow only on Fuji or Nikko routes.
               </li>
             </ul>
           </aside>
@@ -109,6 +113,19 @@ export default function Home() {
       </header>
 
       <main className="mx-auto max-w-6xl space-y-20 px-4 py-16">
+        <section id="routes">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">Choose</p>
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">Four needs, five itineraries</h2>
+          <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-soft">
+            Click a card. You get the night split, the snow/shopping trade-off, photos, official
+            films, and links. The long booking list below is written for route 1 (Fuji lake). If
+            you pick Hakone or Osaka, swap only the middle hotel and the transfer.
+          </p>
+          <div className="mt-8">
+            <RoutePicker />
+          </div>
+        </section>
+
         <section id="decision">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-maple">The call</p>
           <h2 className="mt-2 font-serif text-3xl md:text-4xl">Why this shape</h2>
@@ -405,8 +422,8 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-[#1c1410]/10 px-4 py-10 text-center text-sm text-ink-soft">
-        Core figures for 4 adults + infant, Bangalore → Tokyo / Kyoto-KIX, 18–28 Nov 2026. Shopping
-        excluded. Confirm live fares before you pay.
+        Core figures for 4 adults + infant. Photos: Unsplash. Films: official tourism YouTube.
+        Confirm live fares before you pay.
       </footer>
     </div>
   );
