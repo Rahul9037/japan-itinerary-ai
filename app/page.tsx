@@ -1,3 +1,5 @@
+"use client";
+
 import { DayList } from "@/components/DayList";
 import { RoutePicker } from "@/components/RoutePicker";
 import { itineraries } from "@/lib/itineraries";
@@ -20,6 +22,9 @@ import {
   trip,
   visaDocs,
 } from "@/lib/trip";
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
 const nav = [
   ["october", "If 16 Oct"],
@@ -36,9 +41,9 @@ const nav = [
   ["paper", "Visa"],
 ];
 
-export default async function Home({ searchParams }: PageProps<"/">) {
-  const params = await searchParams;
-  const requested = typeof params.route === "string" ? params.route : "";
+function HomeInner() {
+  const params = useSearchParams();
+  const requested = params.get("route") ?? "";
   const route = routes.find((r) => r.id === requested) ?? routes[0];
   const days = itineraries[route.id] ?? itineraries["route-fuji"];
 
@@ -176,12 +181,12 @@ export default async function Home({ searchParams }: PageProps<"/">) {
             <strong>Fri 16 – Sun 25 Oct</strong>, Asakusa 3N → Nikko 2N → Kyoto 4N. Go up to
             Chuzenji on Monday 19–Tuesday 20 so you miss weekend Irohazaka traffic.
           </p>
-          <a
+          <Link
             href="/?route=route-oct16#days"
             className="mt-4 inline-block rounded-full bg-gold px-5 py-2 text-sm font-semibold text-night"
           >
             Open the 16 Oct itinerary
-          </a>
+          </Link>
         </section>
 
         <section id="routes">
@@ -501,5 +506,13 @@ export default async function Home({ searchParams }: PageProps<"/">) {
         Confirm live fares before you pay.
       </footer>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div className="min-h-full p-8 text-ink-soft">Loading itinerary…</div>}>
+      <HomeInner />
+    </Suspense>
   );
 }
