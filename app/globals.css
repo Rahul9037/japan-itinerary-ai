@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f4efe6;
+  --ink: #1c1410;
+  --ink-soft: #5c4e44;
+  --maple: #b5402a;
+  --maple-deep: #7c2418;
+  --gold: #c4a05a;
+  --pine: #2c4a3e;
+  --night: #1a2230;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-maple: var(--maple);
+  --color-maple-deep: var(--maple-deep);
+  --color-gold: var(--gold);
+  --color-pine: var(--pine);
+  --color-night: var(--night);
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-noto-serif);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.grain {
+  background-image: radial-gradient(rgba(28, 20, 16, 0.04) 0.6px, transparent 0.6px);
+  background-size: 5px 5px;
+}
+
+@media print {
+  nav, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  section {
+    break-inside: avoid;
+  }
+}
